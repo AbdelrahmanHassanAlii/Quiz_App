@@ -1,0 +1,105 @@
+{
+    "questions": [
+      {
+        "question": "What does CSS stand for?",
+        "options": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+        "correctAnswer": "Cascading Style Sheets"
+      },
+      {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "options": ["text-color", "color", "font-color", "text-style"],
+        "correctAnswer": "color"
+      },
+      {
+        "question": "How can you include external CSS in an HTML document?",
+        "options": ["<link rel='stylesheet' href='styles.css'>", "<style src='styles.css'>", "<css href='styles.css'>", "<include stylesheet='styles.css'>"],
+        "correctAnswer": "<link rel='stylesheet' href='styles.css'>"
+      },
+      {
+        "question": "Which CSS selector selects all elements with the class 'example'?",
+        "options": [".example", "#example", "*example", "element.example"],
+        "correctAnswer": ".example"
+      },
+      {
+        "question": "What is the CSS property used to control the space between the inside border and the outside padding of an element?",
+        "options": ["margin", "padding", "border-spacing", "spacing"],
+        "correctAnswer": "padding"
+      },
+      {
+        "question": "Which CSS property is used to make text bold?",
+        "options": ["text-weight", "font-weight", "bold", "text-style"],
+        "correctAnswer": "font-weight"
+      },
+      {
+        "question": "In CSS, what property is used to control the stacking order of elements?",
+        "options": ["z-index", "stack-order", "order", "position"],
+        "correctAnswer": "z-index"
+      },
+      {
+        "question": "Which CSS value is used to make an element transparent?",
+        "options": ["transparent", "opacity:0", "rgba(0,0,0,0)", "fade"],
+        "correctAnswer": "rgba(0,0,0,0)"
+      },
+      {
+        "question": "What is the CSS property used to create rounded corners on an element?",
+        "options": ["border-radius", "corner-radius", "rounded-corners", "corner-style"],
+        "correctAnswer": "border-radius"
+      },
+      {
+        "question": "Which CSS display property value makes an element take up the entire width of its container?",
+        "options": ["block", "inline", "full-width", "stretch"],
+        "correctAnswer": "block"
+      },
+      {
+        "question": "What does the 'CSS' box model consist of?",
+        "options": ["Margin, Border, Padding, Content", "Width, Height, Depth, Margin", "Box, Content, Style, Model", "Padding, Border, Width, Margin"],
+        "correctAnswer": "Margin, Border, Padding, Content"
+      },
+      {
+        "question": "Which CSS property is used to control the alignment of text within its container?",
+        "options": ["text-align", "align-text", "text-center", "text-justify"],
+        "correctAnswer": "text-align"
+      },
+      {
+        "question": "How do you apply a CSS style to a specific HTML element with the ID 'my-element'?",
+        "options": ["#my-element { ... }", ".my-element { ... }", "element(my-element) { ... }", "id(my-element) { ... }"],
+        "correctAnswer": "#my-element { ... }"
+      },
+      {
+        "question": "Which property is used to change the style of the cursor on hover?",
+        "options": ["cursor-style", "hover-cursor", "mouse-pointer", "cursor"],
+        "correctAnswer": "cursor"
+      },
+      {
+        "question": "What does 'CSS specificity' refer to?",
+        "options": ["The order in which styles are applied", "The importance of a style rule", "The weight of a style rule", "How specific a style rule is in relation to a selector"],
+        "correctAnswer": "How specific a style rule is in relation to a selector"
+      },
+      {
+        "question": "Which CSS property is used to create a horizontal line between content?",
+        "options": ["line-break", "horizontal-line", "border-bottom", "border-top"],
+        "correctAnswer": "border-bottom"
+      },
+      {
+        "question": "What is the CSS property used to control the spacing between lines of text?",
+        "options": ["line-height", "text-spacing", "letter-spacing", "word-spacing"],
+        "correctAnswer": "line-height"
+      },
+      {
+        "question": "How can you make a CSS class selector more specific than an element selector?",
+        "options": ["Increase the number of class selectors", "Use the !important rule", "Nest the class selector within the element selector", "Add an ID to the class selector"],
+        "correctAnswer": "Nest the class selector within the element selector"
+      },
+      {
+        "question": "Which CSS property is used to control the visibility of an element?",
+        "options": ["visible", "display", "visibility", "hidden"],
+        "correctAnswer": "visibility"
+      },
+      {
+        "question": "What is the purpose of the 'box-sizing' property in CSS?",
+        "options": ["To control the size of the box", "To set the box model to 'border-box'", "To define the box's content", "To adjust the box's position"],
+        "correctAnswer": "To set the box model to 'border-box'"
+      }
+    ]
+  }
+  

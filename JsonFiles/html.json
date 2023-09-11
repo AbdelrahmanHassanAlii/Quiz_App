@@ -1,0 +1,305 @@
+{
+    "questions": [
+      {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Transfer Markup Language",
+          "Hyper Text Makeup Language",
+          "Hyperlink and Text Markup Language",
+          "Hyper Text Markup Language"
+        ],
+        "correctAnswer": "Hyper Text Markup Language"
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+          "<link>",
+          "<a>",
+          "<h1>",
+          "<url>"
+        ],
+        "correctAnswer": "<a>"
+      },
+      {
+        "question": "What is the correct HTML element for creating a numbered list?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<dl>"
+        ],
+        "correctAnswer": "<ol>"
+      },
+      {
+        "question": "Which HTML element is used for creating a table?",
+        "options": [
+          "<table>",
+          "<tr>",
+          "<td>",
+          "<th>"
+        ],
+        "correctAnswer": "<table>"
+      },
+      {
+        "question": "What does CSS stand for?",
+        "options": [
+          "Cascading Style Sheet",
+          "Computer Style Sheet",
+          "Colorful Style Sheet",
+          "Creative Style Sheet"
+        ],
+        "correctAnswer": "Cascading Style Sheet"
+      },
+      {
+        "question": "Which CSS property is used to change the text color?",
+        "options": [
+          "font-color",
+          "text-color",
+          "color",
+          "text-style"
+        ],
+        "correctAnswer": "color"
+      },
+      {
+        "question": "What is the correct way to comment out multiple lines of code in HTML?",
+        "options": [
+          "<!-- This is a comment -->",
+          "// This is a comment",
+          "/* This is a comment */",
+          "# This is a comment"
+        ],
+        "correctAnswer": "/* This is a comment */"
+      },
+      {
+        "question": "Which HTML tag is used for creating a form?",
+        "options": [
+          "<form>",
+          "<input>",
+          "<label>",
+          "<button>"
+        ],
+        "correctAnswer": "<form>"
+      },
+      {
+        "question": "What is the purpose of the HTML <head> element?",
+        "options": [
+          "To display the main content of the page",
+          "To define the structure of the page",
+          "To store metadata and link to external resources",
+          "To define a page title"
+        ],
+        "correctAnswer": "To store metadata and link to external resources"
+      },
+      {
+        "question": "Which HTML tag is used to create a line break?",
+        "options": [
+          "<br>",
+          "<lb>",
+          "<newline>",
+          "<break>"
+        ],
+        "correctAnswer": "<br>"
+      },
+      {
+        "question": "Which HTML tag is used to define an unordered list?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<dl>"
+        ],
+        "correctAnswer": "<ul>"
+      },
+      {
+        "question": "What is the purpose of the HTML <meta> element?",
+        "options": [
+          "To define a page title",
+          "To display images on the page",
+          "To provide metadata about the document",
+          "To create hyperlinks"
+        ],
+        "correctAnswer": "To provide metadata about the document"
+      },
+      {
+        "question": "Which HTML tag is used for creating a hyperlink to an email address?",
+        "options": [
+          "<email>",
+          "<a>",
+          "<link>",
+          "<mail>"
+        ],
+        "correctAnswer": "<a>"
+      },
+      {
+        "question": "What does the HTML <iframe> element allow you to do?",
+        "options": [
+          "Embed external content like videos or maps",
+          "Style text with different fonts and colors",
+          "Create a bulleted list",
+          "Add images to a webpage"
+        ],
+        "correctAnswer": "Embed external content like videos or maps"
+      },
+      {
+        "question": "Which HTML tag is used to create a line break?",
+        "options": [
+          "<br>",
+          "<lb>",
+          "<newline>",
+          "<break>"
+        ],
+        "correctAnswer": "<br>"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": [
+          "<a href='http://www.example.com'>Example</a>",
+          "<link>http://www.example.com</link>",
+          "<hyperlink>http://www.example.com</hyperlink>",
+          "<url href='http://www.example.com'>Example</url>"
+        ],
+        "correctAnswer": "<a href='http://www.example.com'>Example</a>"
+      },
+      {
+        "question": "Which HTML tag is used for creating a definition list?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<dl>"
+        ],
+        "correctAnswer": "<dl>"
+      },
+      {
+        "question": "What is the correct way to comment out a single line of code in HTML?",
+        "options": [
+          "<!-- This is a comment -->",
+          "// This is a comment",
+          "/* This is a comment */",
+          "# This is a comment"
+        ],
+        "correctAnswer": "<!-- This is a comment -->"
+      },
+      {
+        "question": "Which HTML tag is used to create a table row?",
+        "options": [
+          "<table>",
+          "<tr>",
+          "<td>",
+          "<th>"
+        ],
+        "correctAnswer": "<tr>"
+      },
+      {
+        "question": "What is the purpose of the HTML <aside> element?",
+        "options": [
+          "To create a footer for the page",
+          "To define a section of the page that is separate from the main content",
+          "To format text with a different font",
+          "To create a navigation menu"
+        ],
+        "correctAnswer": "To define a section of the page that is separate from the main content"
+      },
+      {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Transfer Markup Language",
+          "Hyper Text Makeup Language",
+          "Hyperlink and Text Markup Language",
+          "Hyper Text Markup Language"
+        ],
+        "correctAnswer": "Hyper Text Markup Language"
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+          "<link>",
+          "<a>",
+          "<h1>",
+          "<url>"
+        ],
+        "correctAnswer": "<a>"
+      },
+      {
+        "question": "What is the correct HTML element for creating a numbered list?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<dl>"
+        ],
+        "correctAnswer": "<ol>"
+      },
+      {
+        "question": "Which HTML element is used for creating a table?",
+        "options": [
+          "<table>",
+          "<tr>",
+          "<td>",
+          "<th>"
+        ],
+        "correctAnswer": "<table>"
+      },
+      {
+        "question": "What is the correct HTML for creating a line break?",
+        "options": [
+          "<lb>",
+          "<newline>",
+          "<break>",
+          "<br>"
+        ],
+        "correctAnswer": "<br>"
+      },
+      {
+        "question": "What does the HTML <iframe> element allow you to do?",
+        "options": [
+          "Embed external content like videos or maps",
+          "Style text with different fonts and colors",
+          "Create a bulleted list",
+          "Add images to a webpage"
+        ],
+        "correctAnswer": "Embed external content like videos or maps"
+      },
+      {
+        "question": "Which HTML tag is used for creating an ordered list?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<dl>"
+        ],
+        "correctAnswer": "<ol>"
+      },
+      {
+        "question": "What is the purpose of the HTML <meta> element?",
+        "options": [
+          "To define a page title",
+          "To display images on the page",
+          "To provide metadata about the document",
+          "To create hyperlinks"
+        ],
+        "correctAnswer": "To provide metadata about the document"
+      },
+      {
+        "question": "Which HTML tag is used to define a paragraph?",
+        "options": [
+          "<p>",
+          "<par>",
+          "<pg>",
+          "<para>"
+        ],
+        "correctAnswer": "<p>"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink to an external webpage?",
+        "options": [
+          "<a href='http://www.example.com'>Click Here</a>",
+          "<link>http://www.example.com</link>",
+          "<hyperlink>http://www.example.com</hyperlink>",
+          "<url href='http://www.example.com'>Click Here</url>"
+        ],
+        "correctAnswer": "<a href='http://www.example.com'>Click Here</a>"
+      }
+    ]
+  }
+  
