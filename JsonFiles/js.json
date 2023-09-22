@@ -1,0 +1,294 @@
+{
+  "questions": [
+    {
+      "question": "What is the result of the following expression: 5 + '5'?",
+      "options": ["10", "55", "Error", "NaN"],
+      "correctAnswer": "55"
+    },
+    {
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["var", "let", "const", "variable"],
+      "correctAnswer": "var"
+    },
+    {
+      "question": "What does the 'DOM' stand for in JavaScript?",
+      "options": [
+        "Document Object Model",
+        "Data Object Model",
+        "Dynamic Object Management",
+        "Document Order Model"
+      ],
+      "correctAnswer": "Document Object Model"
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A way to close a function",
+        "A function that has access to variables from its outer function",
+        "A function with no parameters",
+        "A built-in JavaScript function"
+      ],
+      "correctAnswer": "A function that has access to variables from its outer function"
+    },
+    {
+      "question": "Which built-in method is used to split a string into an array of substrings based on a specified delimiter?",
+      "options": ["split()", "divide()", "explode()", "slice()"],
+      "correctAnswer": "split()"
+    },
+    {
+      "question": "What does 'NaN' stand for in JavaScript?",
+      "options": [
+        "Not a Number",
+        "No Answer Needed",
+        "New Assignment Needed",
+        "None of the Above"
+      ],
+      "correctAnswer": "Not a Number"
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "options": [
+        "It refers to the current function",
+        "It refers to the previous element",
+        "It refers to the global object",
+        "It refers to the current object"
+      ],
+      "correctAnswer": "It refers to the current object"
+    },
+    {
+      "question": "Which of the following is not a valid JavaScript data type?",
+      "options": ["string", "number", "boolean", "undefined"],
+      "correctAnswer": "undefined"
+    },
+    {
+      "question": "How do you comment out multiple lines of code in JavaScript?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "# This is a comment",
+        "' This is a comment"
+      ],
+      "correctAnswer": "/* This is a comment */"
+    },
+    {
+      "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+      "options": [
+        "It checks if a variable is defined",
+        "It returns the type of a variable or expression",
+        "It converts a value to a specific type",
+        "It checks if a variable is null"
+      ],
+      "correctAnswer": "It returns the type of a variable or expression"
+    },
+    {
+      "question": "What is the JavaScript 'event loop'?",
+      "options": [
+        "A loop used to iterate over arrays",
+        "A loop used for asynchronous code execution",
+        "A loop used to handle errors",
+        "A loop used for network requests"
+      ],
+      "correctAnswer": "A loop used for asynchronous code execution"
+    },
+    {
+      "question": "What is the purpose of the 'Promise' object in JavaScript?",
+      "options": [
+        "To represent a value that might be available now or in the future",
+        "To store multiple values",
+        "To represent a single value",
+        "To handle errors"
+      ],
+      "correctAnswer": "To represent a value that might be available now or in the future"
+    },
+    {
+      "question": "How do you declare a constant variable in JavaScript?",
+      "options": ["var", "let", "const", "readonly"],
+      "correctAnswer": "const"
+    },
+    {
+      "question": "Which function is used to add an element to the end of an array in JavaScript?",
+      "options": ["push()", "append()", "insert()", "addToEnd()"],
+      "correctAnswer": "push()"
+    },
+    {
+      "question": "What does the 'JSON' acronym stand for?",
+      "options": [
+        "JavaScript Object Notation",
+        "Java Source Object Notation",
+        "JavaScript Syntax Object Notation",
+        "Java Scripted Object Notation"
+      ],
+      "correctAnswer": "JavaScript Object Notation"
+    },
+    {
+      "question": "What is a callback function in JavaScript?",
+      "options": [
+        "A function that calls another function",
+        "A function that is called after an asynchronous operation is completed",
+        "A function that returns a callback",
+        "A function that takes no arguments"
+      ],
+      "correctAnswer": "A function that is called after an asynchronous operation is completed"
+    },
+    {
+      "question": "Which operator is used to compare both value and type in JavaScript?",
+      "options": ["===", "==", "!==", "="],
+      "correctAnswer": "==="
+    },
+    {
+      "question": "What is the purpose of the 'map' function in JavaScript?",
+      "options": [
+        "To create a new array with the results of calling a provided function on every element in the array",
+        "To filter elements in an array",
+        "To sort elements in an array",
+        "To concatenate two arrays"
+      ],
+      "correctAnswer": "To create a new array with the results of calling a provided function on every element in the array"
+    },
+    {
+      "question": "Which method is used to remove the last element from an array in JavaScript?",
+      "options": ["remove()", "pop()", "delete()", "splice()"],
+      "correctAnswer": "pop()"
+    },
+    {
+      "question": "What does 'AJAX' stand for in web development?",
+      "options": [
+        "Asynchronous JavaScript and XML",
+        "Advanced JavaScript and XML",
+        "Automatic JavaScript and XML",
+        "All JavaScript and XML"
+      ],
+      "correctAnswer": "Asynchronous JavaScript and XML"
+    },
+    {
+      "question": "Which JavaScript method is used to add a new item to the beginning of an array?",
+      "options": ["push()", "append()", "unshift()", "addToBeginning()"],
+      "correctAnswer": "unshift()"
+    },
+    {
+      "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+      "options": [
+        "To define a function",
+        "To declare a variable",
+        "To handle exceptions and errors",
+        "To create a loop"
+      ],
+      "correctAnswer": "To handle exceptions and errors"
+    },
+    {
+      "question": "What is the 'constructor' property in JavaScript used for?",
+      "options": [
+        "To create an instance of an object",
+        "To define the type of an object",
+        "To access the prototype of an object",
+        "To check if an object has a constructor"
+      ],
+      "correctAnswer": "To access the prototype of an object"
+    },
+    {
+      "question": "How do you add a comment in JavaScript?",
+      "options": [
+        "# This is a comment",
+        "// This is a comment",
+        "' This is a comment",
+        "/* This is a comment */"
+      ],
+      "correctAnswer": "// This is a comment"
+    },
+    {
+      "question": "What is the purpose of the 'Math.random()' function in JavaScript?",
+      "options": [
+        "To generate a random number between 0 and 1",
+        "To round a number to the nearest integer",
+        "To calculate the square root of a number",
+        "To generate a random number between 1 and 100"
+      ],
+      "correctAnswer": "To generate a random number between 0 and 1"
+    },
+    {
+      "question": "How can you convert a string to lowercase in JavaScript?",
+      "options": [
+        "tolowercase()",
+        "lowercase()",
+        "toLowerCase()",
+        "stringToLower()"
+      ],
+      "correctAnswer": "toLowerCase()"
+    },
+    {
+      "question": "What does 'IIFE' stand for in JavaScript?",
+      "options": [
+        "Immediately Invoked Function Expression",
+        "Internal If-Else",
+        "Instance Interface Function Execution",
+        "Inline Function Evaluation"
+      ],
+      "correctAnswer": "Immediately Invoked Function Expression"
+    },
+    {
+      "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+      "options": [
+        "To store data that persists across browser sessions",
+        "To store temporary data in the browser",
+        "To store data in a server database",
+        "To store data on the client's device"
+      ],
+      "correctAnswer": "To store data that persists across browser sessions"
+    },
+    {
+      "question": "How do you round a number to the nearest integer in JavaScript?",
+      "options": ["round()", "ceil()", "floor()", "truncate()"],
+      "correctAnswer": "round()"
+    },
+    {
+      "question": "What is the purpose of the 'addEventListener' method in JavaScript?",
+      "options": [
+        "To add an event handler to an HTML element",
+        "To create a new HTML element",
+        "To remove an HTML element from the DOM",
+        "To add a CSS class to an element"
+      ],
+      "correctAnswer": "To add an event handler to an HTML element"
+    },
+    {
+      "question": "What is the 'NaN' property in JavaScript?",
+      "options": [
+        "A property representing Not a Number",
+        "A method to convert a number to NaN",
+        "A property representing the number 0",
+        "A property representing the number 1"
+      ],
+      "correctAnswer": "A property representing Not a Number"
+    },
+    {
+      "question": "What is the purpose of the 'Array.isArray()' method in JavaScript?",
+      "options": [
+        "To check if a value is a number",
+        "To check if a value is a string",
+        "To check if a value is an array",
+        "To check if a value is an object"
+      ],
+      "correctAnswer": "To check if a value is an array"
+    },
+    {
+      "question": "What does 'AJAX' stand for in web development?",
+      "options": [
+        "Asynchronous JavaScript and XML",
+        "Advanced JavaScript and XML",
+        "Automatic JavaScript and XML",
+        "All JavaScript and XML"
+      ],
+      "correctAnswer": "Asynchronous JavaScript and XML"
+    },
+    {
+      "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+      "options": [
+        "To store data that persists across browser sessions",
+        "To store temporary data in the browser",
+        "To store data in a server database",
+        "To store data on the client's device"
+      ],
+      "correctAnswer": "To store data that persists across browser sessions"
+    }
+  ]
+}

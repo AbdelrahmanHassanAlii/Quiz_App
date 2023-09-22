@@ -99,7 +99,97 @@
         "question": "What is the purpose of the 'box-sizing' property in CSS?",
         "options": ["To control the size of the box", "To set the box model to 'border-box'", "To define the box's content", "To adjust the box's position"],
         "correctAnswer": "To set the box model to 'border-box'"
+      },
+      {
+        "questions": [
+          {
+            "question": "What does the 'CSS' acronym stand for?",
+            "options": [
+              "Cascading Style Sheets",
+              "Central Style Syntax",
+              "Computer Style Standards",
+              "Creative Styling System"
+            ],
+            "correctAnswer": "Cascading Style Sheets"
+          },
+          {
+            "question": "Which CSS property is used to control the space between the content and the border of an element?",
+            "options": ["margin", "padding", "border-spacing", "spacing"],
+            "correctAnswer": "padding"
+          },
+          {
+            "question": "In CSS, what is the purpose of the 'float' property?",
+            "options": [
+              "To change the font of an element",
+              "To move an element to the left or right and let text wrap around it",
+              "To change the color of text",
+              "To create a horizontal line"
+            ],
+            "correctAnswer": "To move an element to the left or right and let text wrap around it"
+          },
+          {
+            "question": "Which CSS property is used to control the appearance of text when it overflows its container?",
+            "options": [
+              "overflow-style",
+              "text-overflow",
+              "text-wrap",
+              "overflow"
+            ],
+            "correctAnswer": "text-overflow"
+          },
+          {
+            "question": "What is the CSS property used to control the order of elements on a page?",
+            "options": ["order", "position", "z-index", "layout"],
+            "correctAnswer": "order"
+          },
+          {
+            "question": "How do you apply an inline CSS style to an HTML element?",
+            "options": [
+              "<style>...</style>",
+              "<css>...</css>",
+              "<inline>...</inline>",
+              "style='...'"
+            ],
+            "correctAnswer": "style='...'"
+          },
+          {
+            "question": "What CSS property is used to change the style of an unordered list marker?",
+            "options": [
+              "marker-style",
+              "list-marker",
+              "list-style-type",
+              "marker-type"
+            ],
+            "correctAnswer": "list-style-type"
+          },
+          {
+            "question": "Which CSS pseudo-class is used to select an element when a user hovers over it?",
+            "options": [":hover", ":active", ":focus", ":link"],
+            "correctAnswer": ":hover"
+          },
+          {
+            "question": "What is the purpose of the CSS 'display' property?",
+            "options": [
+              "To control the order of elements",
+              "To determine the size of elements",
+              "To define the box model",
+              "To control how elements are displayed in the layout"
+            ],
+            "correctAnswer": "To control how elements are displayed in the layout"
+          },
+          {
+            "question": "In CSS, what is the 'box-sizing' property used for?",
+            "options": [
+              "To set the background color of an element",
+              "To adjust the position of an element",
+              "To control the size of the box model",
+              "To define how padding and border are calculated"
+            ],
+            "correctAnswer": "To define how padding and border are calculated"
+          }
+        ]
       }
+
     ]
   }
   
