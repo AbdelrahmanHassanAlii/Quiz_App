@@ -41,26 +41,6 @@
         "correctAnswer": "<table>"
       },
       {
-        "question": "What does CSS stand for?",
-        "options": [
-          "Cascading Style Sheet",
-          "Computer Style Sheet",
-          "Colorful Style Sheet",
-          "Creative Style Sheet"
-        ],
-        "correctAnswer": "Cascading Style Sheet"
-      },
-      {
-        "question": "Which CSS property is used to change the text color?",
-        "options": [
-          "font-color",
-          "text-color",
-          "color",
-          "text-style"
-        ],
-        "correctAnswer": "color"
-      },
-      {
         "question": "What is the correct way to comment out multiple lines of code in HTML?",
         "options": [
           "<!-- This is a comment -->",

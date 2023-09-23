@@ -14,7 +14,6 @@
   list-style: none;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  /* background-color: #EEE; */
 }
 
 .container {
@@ -134,12 +133,17 @@
 .quiz-app .results span {
   font-weight: bold;
 }
+
 .quiz-app .results span.bad {
   color: #dc0a0a;
 }
+
 .quiz-app .results span.good {
   color: #009688;
 }
+
 .quiz-app .results span.perfect {
   color: var(---main-color);
 }
+
+
