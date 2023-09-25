@@ -6,8 +6,6 @@ const duration = 120;
 let currentIndex = 0;
 let score = 0;
 
-//create
-
 //select elements
 //get the span to set counter as number of questions
 let countSpan = document.querySelector(".quiz-info .count span");
@@ -58,7 +56,7 @@ let getQuestions = () => {
         );
 
         //print data in console for check in dev mood
-        console.log(randomQuestions);
+        // console.log(randomQuestions);
         //get the lengh
         let qCount = randomQuestions.length;
         //set the count
@@ -69,33 +67,36 @@ let getQuestions = () => {
         addQuestion(randomQuestions[currentIndex], qCount);
         //add answers data from api
         addAnswers(randomQuestions[currentIndex], qCount);
-
         // count down handle
         countdown(duration, qCount);
         //handle click button
         submitButton.onclick = () => {
-          //get the correct answer
+          // Get the correct answer
           let rightAnswer = randomQuestions[currentIndex].correctAnswer;
-          //increase the index
+          // Check the answers
+          checkedAnswer(rightAnswer);
+          // Increase the index
           currentIndex++;
-          //set the count
-          setCounter(currentIndex + 1);
-          //check the answres
-          checkedAnswer(rightAnswer, qCount);
-          //removev prev question and answer
-          quizArea.innerHTML = "";
-          answersArea.innerHTML = "";
-          //add next question data from api
-          addQuestion(randomQuestions[currentIndex], qCount);
-          //add next answers data from api
-          addAnswers(randomQuestions[currentIndex], qCount);
-          //handle bullets on click
-          handleBullets();
-          // count down handle
-          clearInterval(countdownInterval);
-          countdown(duration, qCount);
-          //show answers
-          showResults(qCount);
+        
+          if (currentIndex < qCount) {
+            // Set the count
+            setCounter(currentIndex + 1);
+            // Remove previous question and answer
+            quizArea.innerHTML = "";
+            answersArea.innerHTML = "";
+            // Add next question data from API
+            addQuestion(randomQuestions[currentIndex], qCount);
+            // Add next answers data from API
+            addAnswers(randomQuestions[currentIndex], qCount);
+            // Handle bullets on click
+            handleBullets();
+            // Count down handle
+            clearInterval(countdownInterval);
+            countdown(duration, qCount);
+          } else {
+            // Show results when all questions are answered
+            showResults(qCount);
+          }
         };
       }
     } else {
@@ -106,19 +107,32 @@ let getQuestions = () => {
 
 // Function to get a random sample of questions
 function getRandomQuestions(questions, count) {
-  let shuffledQuestions = questions.slice(); // Create a copy to avoid modifying the original array
-  for (let i = shuffledQuestions.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffledQuestions[i], shuffledQuestions[j]] = [
-      shuffledQuestions[j],
-      shuffledQuestions[i],
-    ];
+  if (count >= questions.length) {
+    // If the count is greater or equal to the number of available questions,
+    // simply return a shuffled copy of all questions.
+    return shuffleArray(questions);
   }
-  return shuffledQuestions.slice(0, count); // Return the first 'count' questions
-}
 
-// Call the getQuestions function to fetch and display random questions
-getQuestions();
+  // Create a copy of the questions array to avoid modifying the original.
+  let shuffledQuestions = questions.slice();
+  let selectedQuestions = [];
+
+  while (selectedQuestions.length < count) {
+    const randomIndex = Math.floor(Math.random() * shuffledQuestions.length);
+    const selectedQuestion = shuffledQuestions.splice(randomIndex, 1)[0];
+    selectedQuestions.push(selectedQuestion);
+  }
+
+  return selectedQuestions;
+}
+// Helper function to shuffle an array in place.
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 //function set counter of question ( will use in get question fun in req done )
 let setCounter = (num) => {
@@ -139,6 +153,7 @@ let createBullets = (num) => {
   }
 };
 
+//get question
 let addQuestion = (data, count) => {
   if (currentIndex < count) {
     //create the h2 for (question)
@@ -148,10 +163,11 @@ let addQuestion = (data, count) => {
     //add the question to its area
     quizArea.appendChild(question);
     //print data in console for check in dev mood
-    console.log(data.question);
+    // console.log(data.question);
   }
 };
 
+//get the answers
 let addAnswers = (data, count) => {
   if (currentIndex < count) {
     //creating 4 answer boxes
@@ -185,30 +201,27 @@ let addAnswers = (data, count) => {
       answersArea.appendChild(answer);
     }
     //print data in console for check in dev mood
-    console.log(data);
-    console.log(data.options);
+    // console.log(data);
+    // console.log(data.options);
   }
 };
 
-let checkedAnswer = (rightAnswer, count) => {
-  if (currentIndex === count) {
-    let answers = document.getElementsByName("answer");
-    let choosenAnswer;
-    for (i = 0; i < answers.length; i++) {
-      if (answers[i].checked) {
-        choosenAnswer = answers[i].dataset.answer;
-      }
+//handle the choose and the write 
+let checkedAnswer = (rightAnswer) => {
+  let answers = document.getElementsByName("answer");
+  let choosenAnswer;
+  for (let i = 0; i < answers.length; i++) {
+    if (answers[i].checked) {
+      choosenAnswer = answers[i].dataset.answer;
+      break; // Exit the loop once a checked answer is found
     }
-    if (rightAnswer === choosenAnswer) {
-      score++;
-      console.log("good answer");
-    }
-    //print data in console for check in dev mood
   }
-  //   console.log("rightAnswer", rightAnswer);
-  //   console.log(`choosenAnswer`, choosenAnswer);
+  if (rightAnswer === choosenAnswer) {
+    score++;
+  }
 };
 
+//put on on bullets
 let handleBullets = () => {
   let bullets = document.querySelectorAll(".bullets .spans span");
   let arrayOfBullets = Array.from(bullets);
@@ -219,6 +232,7 @@ let handleBullets = () => {
   });
 };
 
+//show results
 function showResults(count) {
   let result;
   if (currentIndex === count) {
@@ -241,6 +255,7 @@ function showResults(count) {
   }
 }
 
+//handle the timer
 function countdown(duration, count) {
   if (currentIndex < count) {
     let minutes, seconds;
@@ -259,4 +274,8 @@ function countdown(duration, count) {
       }
     }, 1000);
   }
-}
+};
+
+// Call the getQuestions function to fetch and display random questions
+getQuestions();
+
